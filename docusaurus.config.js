@@ -3,8 +3,8 @@
 
 require("dotenv").config();
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const lightCodeTheme = require("prism-react-renderer").themes.github;
+const darkCodeTheme = require("prism-react-renderer").themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -75,20 +75,20 @@ const config = {
       navbar: {
         title: process.env.SITE_TITLE,
         logo: {
-          alt: "KG Logo",
+          alt: "Novumd Logo",
           src: "img/logo.png",
         },
         items: [
           { to: "/about", label: "About", position: "right" },
           { to: "/blog", label: "Blog", position: "right" },
-          { to: "/work", label: "Work", position: "right" },
-          { to: "/contact", label: "Contact", position: "right" },
+          // { to: "/work", label: "Work", position: "right" },
+          // { to: "/contact", label: "Contact", position: "right" },
         ],
       },
       footer: {
         style: "light",
         logo: {
-          alt: "KG Logo",
+          alt: "novumd Logo",
           href: "/",
           src: "img/logo.png",
           height: 50,

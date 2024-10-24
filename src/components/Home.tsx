@@ -3,7 +3,7 @@ import Layout from "@theme/Layout";
 import BlogPostItem from "@theme/BlogPostItem";
 import { Content } from "@theme/BlogPostPage";
 import PaginatorNavLink from "@theme/PaginatorNavLink";
-import { BlogPostProvider } from "@docusaurus/theme-common/internal";
+import { BlogPostProvider } from "@docusaurus/plugin-content-blog/client";
 
 interface HomeProps {
   readonly recentPosts: readonly { readonly content: Content }[];
@@ -16,9 +16,7 @@ export function Home({ recentPosts }: HomeProps): JSX.Element {
         <div className="container">
           <div className="row">
             <div className="col col--9 col--offset-1">
-              <h1 className="hero__title">
-                👋 I'm Kishan, a software engineer.
-              </h1>
+              <h1 className="hero__title">🤖 Hi, Android app enginner.</h1>
               <p className="hero__subtitle">
                 Welcome to my development playground.
               </p>

@@ -2,15 +2,14 @@
 title: About Me
 ---
 
-# About Me — Kishan Gajera
+# About Me — novumd
 
-My name’s Kishan Gajera. I’m a software engineer based in the Washington D.C. area. I have 10+ years of professional experience and counting. In my spare time, I work as a freelancer building websites for causes I care about.
+のまど(novumd)
 
-I’m a programmer through and through. I find simple solutions to complex problems. I work incredibly hard to stay ahead of new technology and web standards. I work smart to deliver high quality results that my clients and I will be proud of.
+人・ソフトウェアにおける安全性について学ぶことをモチベーションとしている Android エンジニア
+プロダクトの生産性を高め、将来的な利益を得るためには安全性について考えることが必要
 
-In the few hours when I’m not programming, you’ll find me at the gym.
-
-Have questions or interested in working with me? Feel free to [contact me](/contact).
+<!-- [contact me](/contact).-->
 
 <div className="container margin-top--lg">
   <div className="row">
